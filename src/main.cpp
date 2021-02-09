@@ -17,14 +17,10 @@ void short_blink() {
 }
 
 void setup() {
-  // put your setup code here, to run once:
-
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
   long_blink();
   long_blink();
   long_blink();
